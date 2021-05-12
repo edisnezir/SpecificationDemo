@@ -6,8 +6,8 @@
 
   
   <ItemGroup>
-    <ProjectReference Include="..\SpesificationDemo.Bll\SpesificationDemo.Bll.csproj" />
-    <ProjectReference Include="..\SpesificationDemo.Dal\SpesificationDemo.Dal.csproj" />
+    <ProjectReference Include="..\SpecificationDemo.Bll\SpecificationDemo.Bll.csproj" />
+    <ProjectReference Include="..\SpecificationDemo.Dal\SpecificationDemo.Dal.csproj" />
   </ItemGroup>
 
 
