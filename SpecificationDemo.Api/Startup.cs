@@ -24,7 +24,7 @@ namespace SpesificationDemo.Api
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DatabaseConnection")));
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddControllers();
 
             services.AddTransient<IUnitOfWork, UnitOfWork>();
         }
@@ -42,7 +42,6 @@ namespace SpesificationDemo.Api
             }
 
             app.UseHttpsRedirection();
-            app.UseMvc();
         }
     }
 }
